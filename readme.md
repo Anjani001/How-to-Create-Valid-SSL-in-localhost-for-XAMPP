@@ -49,8 +49,9 @@ C:\xampp\apache\crt\make-cert.bat
 ```
 
 3- point the ip on yourdomain in C:\Windows\System32\drivers\etc\hosts file
+```
 127.0.0.1 your_desired_domain.ext
-
+```
 
 4- replace the your_desired_domain.ext with your desired domain in cert.conf
 
