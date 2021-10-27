@@ -59,7 +59,10 @@ C:\xampp\apache\crt\make-cert.bat
 5- double click on make-cert.bat
 now Enter Domain: your_desired_domain.ext
 then just press the enter key till Common Name
-now enter the value of common name - your_desired_domain.ext
+now enter the value of 
+```
+Common Name (e.g. server FQDN or Your name) [your_desired_domain.ext]:your_desired_domain.ext
+```
 then just press the enter key to finish
 
 6- double click the server.crt and Install Certificate -> Local Machine -> Place all certificates in the following store -> Browse -> Trusted Root Certification Authorities -> Ok -> Next -> Finish
