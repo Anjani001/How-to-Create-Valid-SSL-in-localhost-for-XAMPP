@@ -13,6 +13,7 @@ C:\xampp\apache\crt\make-cert.bat
 1- create a folder in with name "crt" in C:\xampp\apache folder and place the make-cert.bat and cert.conf file in C:\xampp\apache\crt
 2- now for setup the vertual host(your_desired_domain.ext) put the given content in C:\xampp\apache\conf\extra\httpd-vhosts.conf
 
+```
  <VirtualHost *:80>
      DocumentRoot "C:/xampp/htdocs"
      ServerName your_desired_domain.ext
@@ -45,6 +46,7 @@ C:\xampp\apache\crt\make-cert.bat
      SSLCertificateFile "crt/your_desired_domain.ext/server.crt"
      SSLCertificateKeyFile "crt/your_desired_domain.ext/server.key"
  </VirtualHost>
+```
 
 3- point the ip on yourdomain in C:\Windows\System32\drivers\etc\hosts file
 127.0.0.1 your_desired_domain.ext
